@@ -1,0 +1,7 @@
+1. What is a join (just in your own words) and why is it useful?
+
+A join is combining the rows of two different tables on some related column. It is useful since you can query multiple tables when you need information outside of just one table. It also saves the work of putting everything into just one table since that would be very costly compared to joining when needed.
+
+2. Consider the structure of the posts table: why would you want to use a foreign key (user_id) to the users table instead of storing the username, first_name, and last_name in the posts table?
+
+This is because user-id is unique and can be used to define relationships between tables. On the other hand, username, first_name, and last_name may not be unique, so they won't be effective as keys. 
